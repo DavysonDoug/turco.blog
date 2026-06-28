@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turco | Gibi, Shampoo para Barba, Café Orgânico e Produtos Sustentáveis — Araruama RJ</title>
+<meta name="description" content="Turco: gibi impresso, shampoo para barba vegano, e-book 20 Frutas por Dia, café orgânico em grãos, camisas, bonés, chinelos, eco bag, toalha e porta-celular de madeira. Araruama, Rio de Janeiro, São Paulo, Minas Gerais, PR, RS e SC.">
+<meta name="keywords" content="gibi turco, shampoo para barba, café orgânico em grãos, ebook 20 frutas por dia, produtos sustentáveis, eco bag, camiseta turco, boné turco, chinelo turco, toalha turco, porta celular madeira, garrafa sustentável, Araruama, Rio de Janeiro, São Paulo, Minas Gerais, Paraná, Rio Grande do Sul, Santa Catarina">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Turco">
+<meta name="geo.region" content="BR-RJ">
+<meta name="geo.placename" content="Araruama, Rio de Janeiro">
+<link rel="canonical" href="https://www.turco.blog/">
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Turco | Gibi, Shampoo para Barba, Café Orgânico e Produtos Sustentáveis">
+<meta property="og:description" content="Menos telas. Mais histórias. Conheça o universo Turco: gibi, shampoo para barba, e-book, café orgânico, camisas, eco bag e muito mais. Entregamos em todo o Brasil.">
+<meta property="og:url" content="https://www.turco.blog/">
+<meta property="og:image" content="https://www.turco.blog/images/og-turco.jpg">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Turco">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Turco | Gibi, Shampoo para Barba, Café Orgânico e Produtos Sustentáveis">
+<meta name="twitter:description" content="Menos telas. Mais histórias. Conheça o universo Turco — entregamos em todo o Brasil.">
+<meta name="twitter:image" content="https://www.turco.blog/images/og-turco.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,600;1,700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+/* ===== FAQ TURCO ===== */
+.faq-turco {
+  background: #f5f0e8;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+.faq-eyebrow {
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #7a8b53;
+  margin: 0 0 0.4rem;
+}
+.faq-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 800;
+  color: #16321f;
+  margin: 0 0 1rem;
+  line-height: 1.2;
+}
+.faq-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 2.5rem;
+}
+.faq-divider-line {
+  display: inline-block;
+  width: 50px;
+  height: 1px;
+  background: #c9b99a;
+}
+.faq-list {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+.faq-item {
+  background: #fffdf9;
+  border: 1px solid #d9cdb8;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.faq-item.open {
+  border-color: #7a8b53;
+}
+.faq-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 1rem 1.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+.faq-question {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #16321f;
+  line-height: 1.45;
+  flex: 1;
+}
+.faq-icon {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border-radius: 50%;
+  background: #eae4d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.3s;
+}
+.faq-plus {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4a3f2f;
+  line-height: 1;
+  transition: color 0.2s;
+}
+.faq-item.open .faq-icon {
+  background: #16321f;
+  transform: rotate(45deg);
+}
+.faq-item.open .faq-plus {
+  color: #f5f0e8;
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+.faq-item.open .faq-answer {
+  max-height: 300px;
+}
+.faq-answer-inner {
+  padding: 0.8rem 1.25rem 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13.5px;
+  color: #4a3f2f;
+  line-height: 1.75;
+  border-top: 1px solid #eae4d8;
+}
+.faq-badge {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: #16321f;
+  color: #f5f0e8;
+  border-radius: 20px;
+  padding: 2px 10px;
+  margin-bottom: 0.5rem;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+@media (max-width: 600px) {
+  .faq-turco { padding: 3rem 1rem; }
+  .faq-question { font-size: 13px; }
+}
+</style>
+
+<!-- ============================================================
+     SCHEMA.ORG / DADOS ESTRUTURADOS (JSON-LD) — ATIVO
+     SEO Local: Araruama/RJ · Rio de Janeiro · São Paulo ·
+     Minas Gerais · Paraná · Rio Grande do Sul · Santa Catarina
+=============================================================== -->
+
+<!-- 1. Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Turco",
+  "url": "https://www.turco.blog/",
+  "logo": "https://www.turco.blog/images/logo-turco.png",
+  "description": "Marca eco-consciente brasileira com gibi impresso, shampoo para barba vegano, café orgânico, e-book e linha de produtos sustentáveis. Baseada em Araruama, RJ, com entregas em todo o Brasil.",
+  "foundingLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Araruama",
+      "addressRegion": "RJ",
+      "addressCountry": "BR"
+    }
+  },
+  "areaServed": [
+    { "@type": "State", "name": "Rio de Janeiro" },
+    { "@type": "State", "name": "São Paulo" },
+    { "@type": "State", "name": "Minas Gerais" },
+    { "@type": "State", "name": "Paraná" },
+    { "@type": "State", "name": "Rio Grande do Sul" },
+    { "@type": "State", "name": "Santa Catarina" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/turco.blog",
+    "https://www.youtube.com/@turco.blog",
+    "https://www.tiktok.com/@turco.blog"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55-22-98832-8812",
+    "contactType": "customer service",
+    "email": "turco.blog@gmail.com",
+    "areaServed": "BR",
+    "availableLanguage": "Portuguese",
+    "contactOption": "TollFree"
+  }
+}
+</script>
+
+<!-- 2. WebSite + SearchAction -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Turco",
+  "url": "https://www.turco.blog/",
+  "description": "Site oficial da marca Turco — gibi, shampoo para barba, café orgânico, e-book e produtos sustentáveis. Araruama, Rio de Janeiro.",
+  "inLanguage": "pt-BR",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.turco.blog/blog.html?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- 3. LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Turco",
+  "image": "https://www.turco.blog/images/og-turco.jpg",
+  "url": "https://www.turco.blog/",
+  "telephone": "+55-22-98832-8812",
+  "email": "turco.blog@gmail.com",
+  "priceRange": "R$ 36 – R$ 75",
+  "currenciesAccepted": "BRL",
+  "paymentAccepted": "PIX, Cartão de Crédito, Boleto, WhatsApp",
+  "description": "Loja de produtos eco-conscientes: gibi impresso, shampoo para barba vegano, café orgânico em grãos, e-book, camisas, bonés, chinelos, eco bag, toalha, garrafa e porta-celular de madeira. Araruama, RJ. Enviamos para todo o Brasil.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Araruama",
+    "addressRegion": "RJ",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -22.8822,
+    "longitude": -42.3424
+  },
+  "areaServed": [
+    { "@type": "City",  "name": "Araruama" },
+    { "@type": "City",  "name": "Cabo Frio" },
+    { "@type": "City",  "name": "Búzios" },
+    { "@type": "City",  "name": "Saquarema" },
+    { "@type": "State", "name": "Rio de Janeiro" },
+    { "@type": "State", "name": "São Paulo" },
+    { "@type": "State", "name": "Minas Gerais" },
+    { "@type": "State", "name": "Paraná" },
+    { "@type": "State", "name": "Rio Grande do Sul" },
+    { "@type": "State", "name": "Santa Catarina" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/turco.blog",
+    "https://www.youtube.com/@turco.blog",
+    "https://www.tiktok.com/@turco.blog"
+  ]
+}
+</script>
+
+<!-- 4. OfferCatalog (todos os produtos) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "OfferCatalog",
+  "name": "Catálogo Turco — Produtos Sustentáveis",
+  "url": "https://www.turco.blog/#produtos",
+  "provider": {
+    "@type": "Organization",
+    "name": "Turco",
+    "url": "https://www.turco.blog/"
+  },
+  "numberOfItems": 11,
+  "itemListElement": [
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Gibi Turco" }, "price": "36.00", "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Café em Grãos Orgânico Turco" }, "price": "40.00", "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Chinelo Turco" }, "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Camisa Turco" }, "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "E-book 20 Frutas por Dia" }, "price": "36.00", "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Boné Turco" }, "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Shampoo para Barba Turco" }, "price": "75.00", "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Porta-Celular de Madeira Turco" }, "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Garrafa Turco" }, "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Eco Bag Turco" }, "priceCurrency": "BRL" },
+    { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Toalha Turco" }, "priceCurrency": "BRL" }
+  ]
+}
+</script>
+
+<!-- 5. Produtos individuais -->
+
+<!-- Produto: Gibi Turco -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Gibi Turco",
+  "description": "Gibi impresso da marca Turco. Menos telas, mais histórias. A cada compra, contribui com a reciclagem de 2 toneladas de papel por mês. Disponível em edição avulsa ou pacote com 3 edições.",
+  "image": "https://www.turco.blog/images/hero-gibi-turco.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#inicio",
+  "category": "Gibi / Quadrinhos / Educação Infantil",
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Edição avulsa",
+      "price": "36.00",
+      "priceCurrency": "BRL",
+      "availability": "https://schema.org/InStock",
+      "url": "https://www.turco.blog/#inicio",
+      "seller": { "@type": "Organization", "name": "Turco" }
+    },
+    {
+      "@type": "Offer",
+      "name": "3 edições",
+      "price": "87.00",
+      "priceCurrency": "BRL",
+      "availability": "https://schema.org/InStock",
+      "url": "https://www.turco.blog/#inicio",
+      "seller": { "@type": "Organization", "name": "Turco" }
+    }
+  ]
+}
+</script>
+
+<!-- Produto: Shampoo para Barba -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Shampoo Turco para Barba",
+  "description": "Shampoo para barba vegano com controle da oleosidade, prevenção de pelos encravados, hidratação dos fios e da pele, ação calmante e sensação refrescante. Presente ideal para homens que se cuidam.",
+  "image": "https://www.turco.blog/images/produto-shampoo-barba.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "Cosméticos / Cuidados com a Barba / Vegano",
+  "offers": {
+    "@type": "Offer",
+    "price": "75.00",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.turco.blog/#produtos",
+    "priceSpecification": [
+      { "@type": "UnitPriceSpecification", "price": "75.00", "priceCurrency": "BRL", "name": "À vista" },
+      { "@type": "UnitPriceSpecification", "price": "67.50", "priceCurrency": "BRL", "name": "PIX" }
+    ],
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- Produto: E-book 20 Frutas por Dia -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "E-book 20 Frutas por Dia",
+  "description": "Guia prático digital para incluir mais frutas na rotina diária, com receitas e frutopedia completa. Seu corpo vai aprender a pedir fruta. Venda realizada pela Hotmart.",
+  "image": "https://www.turco.blog/images/ebook-20-frutas.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "E-book / Alimentação Saudável / Nutrição",
+  "offers": {
+    "@type": "Offer",
+    "price": "36.00",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.turco.blog/#produtos",
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- Produto: Café em Grãos Orgânico -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Café Turco em Grãos Orgânico",
+  "description": "Café orgânico em grãos, cultivado com respeito ao meio ambiente. Marca Turco.",
+  "image": "https://www.turco.blog/images/produto-cafe-turco.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "Café Orgânico / Alimentação / Sustentabilidade",
+  "offers": {
+    "@type": "Offer",
+    "price": "40.00",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "url": "https://www.turco.blog/#produtos",
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- Produto: Camisa Turco -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Camisa Turco",
+  "description": "Camiseta da marca Turco, linha de moda sustentável e eco-consciente.",
+  "image": "https://www.turco.blog/images/produtosgerais.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "Vestuário / Moda Sustentável",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "BRL",
+    "url": "https://www.turco.blog/#produtos",
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- Produto: Boné Turco -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Boné Turco",
+  "description": "Boné da marca Turco, linha de acessórios sustentáveis.",
+  "image": "https://www.turco.blog/images/produtosgerais.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "Acessórios / Moda Sustentável",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "BRL",
+    "url": "https://www.turco.blog/#produtos",
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- Produto: Chinelo Turco -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Chinelo Turco",
+  "description": "Chinelo da linha de produtos sustentáveis Turco.",
+  "image": "https://www.turco.blog/images/produtosgerais.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "Calçados / Moda Sustentável",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "BRL",
+    "url": "https://www.turco.blog/#produtos",
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- Produto: Porta-Celular de Madeira -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Porta-Celular de Madeira Turco",
+  "description": "Suporte porta-celular artesanal de madeira, item da linha eco-consciente da marca Turco.",
+  "image": "https://www.turco.blog/images/produtosgerais.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "Acessórios / Sustentabilidade / Madeira",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "BRL",
+    "url": "https://www.turco.blog/#produtos",
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- Produto: Garrafa Turco -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Garrafa Turco",
+  "description": "Garrafa sustentável da linha de produtos eco-conscientes Turco.",
+  "image": "https://www.turco.blog/images/produtosgerais.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "Utilidades / Sustentabilidade",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "BRL",
+    "url": "https://www.turco.blog/#produtos",
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- Produto: Eco Bag Turco -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Eco Bag Turco",
+  "description": "Sacola eco bag reutilizável da linha sustentável Turco. Reduza o uso de plástico.",
+  "image": "https://www.turco.blog/images/produtosgerais.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "Sustentabilidade / Acessórios",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "BRL",
+    "url": "https://www.turco.blog/#produtos",
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- Produto: Toalha Turco -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Toalha Turco",
+  "description": "Toalha da linha de produtos sustentáveis e eco-conscientes da marca Turco.",
+  "image": "https://www.turco.blog/images/produtosgerais.jpg",
+  "brand": { "@type": "Brand", "name": "Turco" },
+  "url": "https://www.turco.blog/#produtos",
+  "category": "Casa / Sustentabilidade",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "BRL",
+    "url": "https://www.turco.blog/#produtos",
+    "seller": { "@type": "Organization", "name": "Turco" }
+  }
+}
+</script>
+
+<!-- 6. FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O Turco entrega em todo o Brasil?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim! O Turco envia seus produtos para todo o Brasil, incluindo Rio de Janeiro, São Paulo, Minas Gerais, Paraná, Rio Grande do Sul e Santa Catarina. Entre em contato pelo WhatsApp para combinar o frete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como comprar os produtos Turco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Você pode comprar diretamente pelo WhatsApp (22) 98832-8812 ou pelos botões 'Compre Aqui' no site. O e-book 20 Frutas por Dia é vendido pela plataforma Hotmart."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O shampoo para barba Turco é vegano?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, o Shampoo Turco para Barba é vegano, com fórmula natural que controla oleosidade, previne pelos encravados, hidrata a pele e a barba com ação calmante e sensação refrescante."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O Gibi Turco contribui para o meio ambiente?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim! A cada compra do Gibi Turco, você contribui com a reciclagem de 2 toneladas de papel por mês. É a forma do Turco unir cultura, educação infantil e responsabilidade ambiental."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O café Turco é orgânico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, o Café Turco em Grãos é orgânico, produzido com respeito ao meio ambiente e sem agrotóxicos. Disponível por R$ 40,00 o pacote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais formas de pagamento o Turco aceita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O Turco aceita PIX (com desconto), cartão de crédito parcelado e pagamento via WhatsApp. O PIX no shampoo para barba, por exemplo, dá 10% de desconto: de R$ 75,00 por R$ 67,50."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando vai ao ar a Rádio Turco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Rádio Turco vai ao ar ao vivo todos os sábados às 17h. Acompanhe pelo site turco.blog."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- 7. BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://www.turco.blog/" },
+    { "@type": "ListItem", "position": 2, "name": "Produtos", "item": "https://www.turco.blog/#produtos" },
+    { "@type": "ListItem", "position": 3, "name": "Sobre", "item": "https://www.turco.blog/#sobre" },
+    { "@type": "ListItem", "position": 4, "name": "Blog", "item": "https://www.turco.blog/blog.html" },
+    { "@type": "ListItem", "position": 5, "name": "Contato", "item": "https://www.turco.blog/#contato" }
+  ]
+}
+</script>
+
+<!-- 8. VideoObject — Manifesto Turco -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Manifesto Turco — A cidade adoece, a floresta cura",
+  "description": "Manifesto oficial da marca Turco: vida conectada à natureza, alimentação orgânica, cosméticos veganos e educação infantil.",
+  "thumbnailUrl": "https://www.turco.blog/images/video-manifesto-thumb.jpg",
+  "uploadDate": "2026-06-21",
+  "embedUrl": "https://www.youtube.com/embed/I2bhcR86sy0",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Turco",
+    "url": "https://www.turco.blog/"
+  }
+}
+</script>
+
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+
+<!-- ============================== HEADER ============================== -->
+<header class="site-header">
+  <div class="header-inner">
+
+    <div class="brand-radio">
+      <img class="logo" src="images/logo-turco.png" alt="Turco - logomarca com ilustração de árvore" width="56" height="56">
+      <div class="radio-text">
+        <strong>Rádio Turco ao vivo</strong>
+        <span>Sábado às 17h</span>
+      </div>
+    </div>
+
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="#inicio" class="active">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <!-- PLAYER RÁDIO TURCO — ZDX -->
+    <div class="radio-plugin-slot" id="radio-plugin-slot" aria-label="Player da Rádio Turco">
+      <iframe
+        src="https://turco.zdx.com.br/player/"
+        title="Rádio Turco ao vivo"
+        frameborder="0"
+        scrolling="no"
+        allow="autoplay; encrypted-media"
+        loading="lazy"
+        style="width:100%;height:100%;min-width:200px;min-height:64px;border:none;display:block;">
+      </iframe>
+    </div>
+
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+  </div>
+</header>
+
+<main id="conteudo-principal">
+
+  <!-- ============================== HERO / GIBI TURCO ============================== -->
+  <section class="section hero" id="inicio">
+    <img class="hero-bg"
+         src="images/hero-gibi-turco.jpg"
+         alt="Homem com chapéu de palha sorrindo, segurando o gibi Turco em cenário que mistura floresta e cidade, com cachorro ao lado"
+         loading="eager">
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <h1>GIBI TURCO</h1>
+      <p class="tagline">Menos telas. Mais histórias.</p>
+
+      <div class="boxed-note">
+        Quem compra o gibi contribui com a reciclagem de 2 toneladas de papel por mês.
+      </div>
+
+      <p class="price-lines">
+        Avulso - R$ 36,00<br>
+        3 edições por R$ 87,00
+      </p>
+
+      <a class="btn btn-primary"
+         href="https://wa.me/5522988328812?text=Ol%C3%A1!%20Quero%20comprar%20o%20Gibi%20Turco."
+         target="_blank" rel="noopener">
+        <svg class="icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M2 3h2l2.4 11.4A2 2 0 0 0 8.35 16H17a2 2 0 0 0 1.95-1.55L20.6 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+        COMPRE AQUI!
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================== MANIFESTO + VÍDEO ============================== -->
+  <section class="section manifesto" id="sobre">
+    <div class="manifesto-text">
+      <p class="eyebrow">Manifesto Turco</p>
+      <h2>A cidade adoece.<br>A floresta cura.</h2>
+      <span class="divider" aria-hidden="true">
+        <svg viewBox="0 0 60 20" width="50" height="18"><path d="M2 10 H58" stroke="#16321f" stroke-width="1"/><path d="M30 5 C 33 8, 33 12, 30 15 C 27 12, 27 8, 30 5 Z" fill="#16321f"/></svg>
+      </span>
+      <p>Turco é um defensor da vida conectada à natureza, promovendo alimentação orgânica, cosméticos veganos e a educação infantil.</p>
+    </div>
+
+    <div class="manifesto-video" id="video-manifesto">
+      <!-- VÍDEO DO YOUTUBE (Manifesto Turco)
+           Vídeo vertical (YouTube Shorts) — por isso a classe "vertical"
+           no video-wrapper, que ajusta a proporção para 9:16. -->
+      <div class="video-wrapper vertical">
+        <iframe
+          src="https://www.youtube.com/embed/I2bhcR86sy0"
+          title="Manifesto Turco"
+          frameborder="0"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+      <a class="btn btn-primary btn-play" href="#video-manifesto">
+        <svg class="icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><polygon points="6,4 20,12 6,20" fill="currentColor"/></svg>
+        ASSISTIR VÍDEO
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================== SHAMPOO TURCO PARA BARBA ============================== -->
+ <section class="section produto-shampoo" id="produtos">
+
+  <img class="hero-bg"
+       src="images/produto-shampoo-barba.jpg"
+       alt="História em quadrinhos do Turco"
+       loading="lazy">
+
+  <div class="hero-overlay"></div>
+
+  <div class="produto-info">
+    <h2>Shampoo Turco<br>para Barba</h2>
+
+    <p class="produto-desc">
+      Para a mulher presentear o homem que se cuida.
+    </p>
+
+    <p class="price-lines">
+      R$ 75,00<br>
+      ou 3x de R$ 25,00<br>
+      PIX: R$ 67,50
+    </p>
+
+    <a class="btn btn-primary"
+       href="https://wa.me/5522988328812?text=Ol%C3%A1!%20Quero%20comprar%20o%20Shampoo%20Turco%20para%20Barba."
+       target="_blank"
+       rel="noopener">
+      COMPRE AQUI!
+    </a>
+
+    <ul class="checklist">
+      <li><span class="check">✔</span> Controle da oleosidade</li>
+      <li><span class="check">✔</span> Prevenção de pelos encravados</li>
+      <li><span class="check">✔</span> Hidratação dos fios e da pele</li>
+      <li><span class="check">✔</span> Ação calmante</li>
+      <li><span class="check">✔</span> Sensação refrescante</li>
+    </ul>
+  </div>
+
+</section>
+  <!-- ============================== E-BOOK 20 FRUTAS POR DIA ============================== -->
+  <section class="section produto-ebook">
+
+    <img class="hero-bg"
+         src="images/ebook-20-frutas.jpg"
+         alt="Capa do e-book 20 Frutas por Dia da marca Turco"
+         loading="lazy">
+
+    <div class="hero-overlay"></div>
+
+    <div class="ebook-info">
+      <h2>E-book 20 Frutas<br>por Dia</h2>
+
+      <p class="produto-desc italic">Seu corpo vai aprender a pedir fruta.</p>
+
+      <p class="price-lines">
+        R$ 36,00<br>
+        4x de R$ 9,00
+      </p>
+
+      <a class="btn btn-primary"
+         href="https://wa.me/5522988328812?text=Ol%C3%A1!%20Quero%20comprar%20o%20E-book%2020%20Frutas%20por%20Dia."
+         target="_blank" rel="noopener">
+        <svg class="icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M2 3h2l2.4 11.4A2 2 0 0 0 8.35 16H17a2 2 0 0 0 1.95-1.55L20.6 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+        COMPRE AQUI!
+      </a>
+
+      <ul class="checklist checklist-inline">
+        <li><span class="check">✔</span> Guia prático disponível</li>
+        <li><span class="check">✔</span> Não é dieta e rotina!</li>
+        <li><span class="check">✔</span> Receitas + frutopedia</li>
+      </ul>
+      <p class="hotmart-note">🔥 Venda realizada pela Hotmart.</p>
+    </div>
+
+  </section>
+
+  <!-- ============================== OUTROS PRODUTOS ============================== -->
+  <section class="section outros-produtos" style="padding:0 !important;margin:0 !important;width:100% !important;max-width:100% !important;text-align:center;background:#f5f0e8;box-sizing:border-box;">
+    <img src="images/produtosgerais.jpg"
+         alt="Linha de produtos Turco: camiseta, ecobag, garrafa, boné, chinelo, toalha e suporte para celular"
+         loading="lazy"
+         style="display:inline-block;max-width:100%;height:auto;margin:0 auto;vertical-align:middle;">
+  </section>
+
+  <!-- ============================== CAFÉ TURCO ============================== -->
+  <section class="section produto-cafe">
+
+    <img class="hero-bg"
+         src="images/produto-cafe-turco.jpg"
+         alt="Pacote de Café Turco em grãos orgânico ao lado de uma xícara de café servido, com grãos de café e folhagem ao redor"
+         loading="lazy">
+
+    <div class="hero-overlay"></div>
+
+    <div class="cafe-info">
+      <span class="decor-branch cafe-branch" aria-hidden="true">
+        <svg viewBox="0 0 100 120" width="90" height="110"><path d="M50 110 C 48 70, 60 55, 45 20" fill="none" stroke="#5c4a30" stroke-width="2"/><ellipse cx="35" cy="40" rx="10" ry="6" fill="#7a8b53" transform="rotate(-30 35 40)"/><ellipse cx="58" cy="55" rx="10" ry="6" fill="#7a8b53" transform="rotate(20 58 55)"/><ellipse cx="38" cy="70" rx="10" ry="6" fill="#7a8b53" transform="rotate(-15 38 70)"/><circle cx="30" cy="55" r="4" fill="#9b2b1f"/><circle cx="50" cy="35" r="4" fill="#9b2b1f"/></svg>
+      </span>
+      <h2>Café Turco</h2>
+      <p class="produto-desc">em Grãos Orgânico</p>
+      <p class="price-lines price-big">R$ 40,00</p>
+      <a class="btn btn-primary"
+         href="https://wa.me/5522988328812?text=Ol%C3%A1!%20Quero%20comprar%20o%20Caf%C3%A9%20Turco%20em%20gr%C3%A3os."
+         target="_blank" rel="noopener">
+        <svg class="icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M2 3h2l2.4 11.4A2 2 0 0 0 8.35 16H17a2 2 0 0 0 1.95-1.55L20.6 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+        COMPRE AQUI!
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================== PATROCINADORES ============================== -->
+  <section class="section patrocinadores">
+    <h2 class="section-title">
+      <span class="arrow" aria-hidden="true">&#8811;</span> Patrocinadores <span class="arrow" aria-hidden="true">&#8810;</span>
+    </h2>
+
+    <ul class="sponsor-grid">
+      <li>
+        <img src="images/sponsor-danny-queiroz.png" alt="Danny Queiroz" loading="lazy">
+      </li>
+      <li>
+        <img src="images/sponsor-ko.png" alt="KO" loading="lazy">
+      </li>
+      <li>
+        <img src="images/sponsor-danilo-rolim.png" alt="Danilo Rolim Oftalmologista" loading="lazy">
+      </li>
+      <li>
+        <img src="images/sponsor-maxsafra.png" alt="MaxSafra - Fertilizante Orgânico" loading="lazy">
+      </li>
+      <li>
+        <img src="images/sponsor-onda.png" alt="Onda - Limpeza que cuida. Você e o planeta." loading="lazy">
+      </li>
+      <li>
+        <img src="images/sponsor-tupperware.png" alt="Tupperware - Soluções inteligentes para facilitar seu dia a dia" loading="lazy">
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<!-- ============================== FAQ ============================== -->
+<section class="section faq-turco" id="faq">
+  <p class="faq-eyebrow">Dúvidas frequentes</p>
+  <h2 class="faq-title">Perguntas<br>&amp; Respostas</h2>
+  <div class="faq-divider" aria-hidden="true">
+    <span class="faq-divider-line"></span>
+    <svg viewBox="0 0 20 24" width="14" height="18"><path d="M10 22 C 8 14, 14 10, 10 2 C 6 10, 12 14, 10 22 Z" fill="#7a8b53"/><path d="M10 22 C 8 14, 4 12, 2 6" fill="none" stroke="#7a8b53" stroke-width="1"/><path d="M10 22 C 12 14, 16 12, 18 6" fill="none" stroke="#7a8b53" stroke-width="1"/></svg>
+    <span class="faq-divider-line"></span>
+  </div>
+
+  <div class="faq-list">
+
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-1">
+        <span class="faq-question">O Turco entrega em todo o Brasil?</span>
+        <span class="faq-icon" aria-hidden="true"><span class="faq-plus">+</span></span>
+      </button>
+      <div class="faq-answer" id="faq-1" role="region">
+        <div class="faq-answer-inner">
+          <span class="faq-badge">Entrega</span>
+          Sim! O Turco envia seus produtos para todo o Brasil — Rio de Janeiro, São Paulo, Minas Gerais, Paraná, Rio Grande do Sul, Santa Catarina e mais. Entre em contato pelo WhatsApp para combinar o frete.
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-2">
+        <span class="faq-question">Como comprar os produtos Turco?</span>
+        <span class="faq-icon" aria-hidden="true"><span class="faq-plus">+</span></span>
+      </button>
+      <div class="faq-answer" id="faq-2" role="region">
+        <div class="faq-answer-inner">
+          <span class="faq-badge">Compra</span>
+          É simples: clique em qualquer botão "Compre Aqui" no site e você será direcionado ao WhatsApp. O e-book 20 Frutas por Dia é vendido pela plataforma Hotmart.
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-3">
+        <span class="faq-question">O shampoo para barba Turco é vegano?</span>
+        <span class="faq-icon" aria-hidden="true"><span class="faq-plus">+</span></span>
+      </button>
+      <div class="faq-answer" id="faq-3" role="region">
+        <div class="faq-answer-inner">
+          <span class="faq-badge">Produto</span>
+          Sim! O Shampoo Turco para Barba é vegano, com fórmula natural que controla oleosidade, previne pelos encravados, hidrata a pele e a barba, com ação calmante e sensação refrescante.
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-4">
+        <span class="faq-question">O Gibi Turco contribui para o meio ambiente?</span>
+        <span class="faq-icon" aria-hidden="true"><span class="faq-plus">+</span></span>
+      </button>
+      <div class="faq-answer" id="faq-4" role="region">
+        <div class="faq-answer-inner">
+          <span class="faq-badge">Sustentabilidade</span>
+          A cada compra do Gibi Turco, você contribui com a reciclagem de 2 toneladas de papel por mês. É a forma do Turco unir cultura, educação infantil e responsabilidade ambiental.
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-5">
+        <span class="faq-question">O café Turco é orgânico?</span>
+        <span class="faq-icon" aria-hidden="true"><span class="faq-plus">+</span></span>
+      </button>
+      <div class="faq-answer" id="faq-5" role="region">
+        <div class="faq-answer-inner">
+          <span class="faq-badge">Produto</span>
+          Sim, o Café Turco em Grãos é orgânico, produzido com respeito ao meio ambiente e sem agrotóxicos, disponível por R$ 40,00 o pacote.
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-6">
+        <span class="faq-question">Quais formas de pagamento o Turco aceita?</span>
+        <span class="faq-icon" aria-hidden="true"><span class="faq-plus">+</span></span>
+      </button>
+      <div class="faq-answer" id="faq-6" role="region">
+        <div class="faq-answer-inner">
+          <span class="faq-badge">Pagamento</span>
+          PIX com desconto, cartão de crédito parcelado e pagamento via WhatsApp. No shampoo para barba, por exemplo, o PIX sai R$ 67,50 (10% off sobre R$ 75,00).
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-btn" aria-expanded="false" aria-controls="faq-7">
+        <span class="faq-question">Quando vai ao ar a Rádio Turco?</span>
+        <span class="faq-icon" aria-hidden="true"><span class="faq-plus">+</span></span>
+      </button>
+      <div class="faq-answer" id="faq-7" role="region">
+        <div class="faq-answer-inner">
+          <span class="faq-badge">Rádio</span>
+          A Rádio Turco vai ao ar ao vivo todos os sábados às 17h. Acompanhe o player no topo do site turco.blog.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================== FOOTER ============================== -->
+<footer class="site-footer" id="contato">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <img class="logo" src="images/logo-turco.png" alt="Turco" width="48" height="48">
+      <span>TURCO</span>
+    </div>
+
+    <div class="footer-col">
+      <h3>Links rápidos</h3>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Siga o Turco</h3>
+      <ul class="social-list">
+        <li>
+          <a href="https://www.instagram.com/turco.blog" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor"/></svg>
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@turco.blog" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><polygon points="10,9 16,12 10,15" fill="currentColor"/></svg>
+            YouTube
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@turco.blog" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M14 3 v10.5 a3.5 3.5 0 1 1 -3 -3.46 V8 a5.5 5.5 0 1 0 5.5 5.5 V8.2 a6 6 0 0 0 3.5 1.1 V6.7 a4 4 0 0 1 -3.5 -2.2 V3 Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+            TikTok
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Fale conosco</h3>
+      <ul class="contact-list">
+        <li>
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 6 l9 7 9 -7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          <a href="mailto:turco.blog@gmail.com">turco.blog@gmail.com</a>
+        </li>
+        <li>
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 4 h4 l2 5 -2.5 1.5 a12 12 0 0 0 6 6 L15 14 l5 2 v4 a2 2 0 0 1 -2 2 A16 16 0 0 1 2 6 a2 2 0 0 1 2 -2 Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+          <a href="tel:+5522988328812">Telefone: (22)98832-8812</a>
+        </li>
+        <li>
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 21 C 7 16, 4 12.4, 4 9 a8 8 0 1 1 16 0 c 0 3.4 -3 7 -8 12 Z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          Araruama - RJ
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Turco - Todos os Direitos Reservados.</p>
+  </div>
+</footer>
+
+<!-- Botão flutuante de WhatsApp -->
+<a class="whatsapp-float" href="https://wa.me/5522988328812?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20Turco." target="_blank" rel="noopener" aria-label="Fale com o Turco no WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path d="M16 3 a13 13 0 0 0 -11 20 l-1.3 5.6 5.8 -1.5 A13 13 0 1 0 16 3 Z" fill="#ffffff"/><path d="M11.5 9.8 c.4 -.1 1 -.1 1.3 .5 c.3 .6 1 2.1 1.1 2.3 c.1 .3 .1 .5 0 .8 c-.2 .3 -.3 .5 -.6 .8 c-.3 .3 -.5 .5 -.2 1 c.3 .6 1.2 1.9 2.5 3 c1.7 1.4 2.9 1.8 3.4 2 c.4 .1 .6 .1 .9 -.2 c.3 -.4 1 -1.2 1.3 -1.6 c.3 -.4 .6 -.3 1 -.2 c.4 .2 2.5 1.2 2.9 1.4 c.4 .2 .7 .3 .8 .5 c.1 .2 .1 1.1 -.3 2.1 c-.4 1 -2.1 2 -2.9 2.1 c-.7 .1 -1.6 .2 -5.1 -1.1 c-4.3 -1.7 -7 -5.9 -7.2 -6.2 c-.2 -.3 -1.7 -2.3 -1.7 -4.4 c0 -2.1 1.1 -3.1 1.5 -3.5 c.4 -.4 .9 -.5 1.3 -.6 Z" fill="#16321f"/></svg>
+</a>
+
+<script src="js/script.js"></script>
+
+<script>
+/* FAQ Acordeão */
+document.querySelectorAll('.faq-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var item = this.closest('.faq-item');
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(function(el) {
+      el.classList.remove('open');
+      el.querySelector('.faq-btn').setAttribute('aria-expanded', 'false');
+    });
+    if (!isOpen) {
+      item.classList.add('open');
+      this.setAttribute('aria-expanded', 'true');
+    }
+  });
+});
+</script>
+</body>
+</html>

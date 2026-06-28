@@ -1,0 +1,53 @@
+TURCO — GUIA DE IMAGENS (pasta /images)
+=========================================
+O código já está com os caminhos (src) prontos. Basta salvar os
+arquivos finais nesta pasta "images/" com exatamente estes nomes
+(ou ajustar o "src" no HTML se preferir outros nomes).
+
+Logomarca
+---------
+- logo-turco.png            -> logo circular da árvore (header e footer)
+- favicon.png                -> ícone da aba do navegador
+
+Seção Gibi Turco (hero)
+------------------------
+- hero-gibi-turco.jpg        -> homem + gibi + cenário floresta/cidade
+
+Seção Manifesto
+------------------------
+- (sem imagem fixa: o espaço foi reservado para um VÍDEO DO YOUTUBE,
+   ver instrução no próprio index.html, troque "VIDEO_ID" pela ID
+   real do vídeo)
+
+Seção Shampoo para Barba
+------------------------
+- produto-shampoo-barba.jpg  -> homem apontando para o frasco
+
+Seção E-book 20 Frutas por Dia
+------------------------
+- ebook-20-frutas.png        -> mockup da capa do e-book
+
+Seção Café Turco
+------------------------
+- produto-cafe-turco.jpg     -> pacote + xícara de café
+
+Seção Patrocinadores
+------------------------
+- sponsor-danny-queiroz.png
+- sponsor-ko.png
+- sponsor-danilo-rolim.png
+- sponsor-maxsafra.png
+- sponsor-onda.png
+- sponsor-tupperware.png
+
+Open Graph (compartilhamento em redes sociais)
+------------------------
+- og-turco.jpg                -> imagem 1200x630px usada ao compartilhar
+                                  o link do site (Facebook, WhatsApp, etc.)
+
+Dica de formato/peso
+------------------------
+- Fotos (.jpg): comprimir para a faixa de 100–300kb cada
+- Logos/mockups com fundo transparente (.png ou .webp)
+- Ícones de produto (camiseta, ecobag, garrafa etc.) já estão em
+  SVG embutido no código — não precisam de arquivo de imagem.

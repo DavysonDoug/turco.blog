@@ -1,0 +1,15 @@
+# Turco — robots.txt
+# https://www.turco.blog/
+
+User-agent: *
+Allow: /
+
+# Nenhuma área administrativa ou de checkout própria até o momento.
+# Caso futuramente existam páginas que não devem ser indexadas
+# (ex.: páginas de agradecimento, área de login, filtros internos),
+# adicione regras Disallow específicas aqui. Exemplos comentados:
+# Disallow: /obrigado
+# Disallow: /admin/
+# Disallow: /*?*
+
+Sitemap: https://www.turco.blog/sitemap.xml

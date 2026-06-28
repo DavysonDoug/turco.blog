@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Turco — sitemap.xml
+  https://www.turco.blog/
+
+  Contém apenas as páginas que existem e podem ser rastreadas hoje.
+  Abaixo, no comentário ao final do arquivo, há um modelo com as URLs
+  de Produtos/Blog para quando essas páginas próprias forem publicadas
+  (hoje "Produtos", "Sobre" e "Contato" são apenas seções/âncoras da
+  página inicial, então não entram aqui para evitar conteúdo
+  duplicado — só "/" e "/blog", que já têm caminho próprio no menu).
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.turco.blog/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.turco.blog/blog</loc>
+    <lastmod>2026-06-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
+
+<!--
+  ============================================================
+  URLS FUTURAS (descomentar/adaptar conforme as páginas forem
+  publicadas de fato — cada uma precisa existir e responder 200
+  antes de entrar no sitemap):
+
+  <url>
+    <loc>https://www.turco.blog/produtos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.turco.blog/produtos/gibi-turco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.turco.blog/produtos/shampoo-para-barba</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.turco.blog/produtos/ebook-20-frutas-por-dia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.turco.blog/produtos/cafe-turco-em-graos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.turco.blog/sobre</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.turco.blog/contato</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  ============================================================
+-->
